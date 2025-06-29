@@ -23,34 +23,41 @@ This is a real-time automation testing framework built to automate Amazon produc
 
 HybridAmazonFramework/
 │
-├── features/ # Cucumber feature files
-│ ├── AmazonSearch.feature
-│ └── AmazonSearchExcel.feature
+├── features/                   
+│   ├── AmazonSearch.feature
+│   └── AmazonSearchExcel.feature
 │
-├── stepdefinitions/ # Step definition classes
-│ ├── SearchSteps.java
-│ └── SearchExcelSteps.java
+├── stepdefinitions/           
+│   ├── SearchSteps.java
+│   └── SearchExcelSteps.java
 │
-├── hooks/ # Hooks for browser setup, teardown, reporting
-│ ├── Hooks.java
-│ └── ExtentReporterHooks.java
+├── hooks/                     
+│   ├── Hooks.java
+│   └── ExtentReporterHooks.java
 │
-├── utils/ # Utility classes
-│ ├── ExcelUtil.java
-│ ├── ScreenshotUtil.java
-│ ├── StepLogger.java
-│ ├── ConfigReader.java
-│ └── RetryListener.java
+├── utils/                     
+│   ├── ExcelUtil.java
+│   ├── ScreenshotUtil.java
+│   ├── StepLogger.java
+│   ├── ConfigReader.java
+│   └── RetryListener.java
 │
-├── testdata/ # Excel test data
-│ └── AmazonSearchData.xlsx
+├── testdata/                  
+│   └── AmazonSearchData.xlsx
 │
-├── reports/ # Execution reports
-│ └── ExtentReport.html
+├── reports/                   
+│   └── ExtentReport.html
 │
-├── testng.xml # TestNG suite file
-├── pom.xml # Maven dependencies
-└── README.md
+├── screenshots/               
+│   └── (failure screenshots generated at runtime)
+│
+├── runner/                    
+│   └── TestNGCucumberRunner.java
+│
+├── testng.xml                 
+├── pom.xml                    
+└── README.md                  
+
 
 
 ---
