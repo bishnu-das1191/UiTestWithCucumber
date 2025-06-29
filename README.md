@@ -21,7 +21,52 @@ This is a real-time automation testing framework built to automate Amazon produc
 
 ## 📁 Project Structure
 
-![Project Structure](https://i.imgur.com/lQJMbKr.png)
+HybridAmazonFramework/
+
+
+├── features/                   
+│   ├── AmazonSearch.feature
+│   └── AmazonSearchExcel.feature
+│
+
+├── stepdefinitions/           
+│   ├── SearchSteps.java
+│   └── SearchExcelSteps.java
+│
+
+├── hooks/                     
+│   ├── Hooks.java
+│   └── ExtentReporterHooks.java
+│
+
+├── utils/                     
+│   ├── ExcelUtil.java
+│   ├── ScreenshotUtil.java
+│   ├── StepLogger.java
+│   ├── ConfigReader.java
+│   └── RetryListener.java
+│
+
+├── testdata/                  
+│   └── AmazonSearchData.xlsx
+│
+
+├── reports/                   
+│   └── ExtentReport.html
+│
+
+├── screenshots/               
+│   └── (failure screenshots generated at runtime)
+│
+
+├── runner/                    
+│   └── TestNGCucumberRunner.java
+│
+
+├── testng.xml                 
+├── pom.xml                    
+└── README.md                  
+
 
 
 ---
