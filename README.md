@@ -117,10 +117,10 @@ VCS	Git + GitHub
 👨‍💻 Author
 👤 Name: Arpan Bhattacharyya
 
-🌐 GitHub: CodeAvenger100
+🌐 GitHub: https://github.com/bishnu-das1191
 
-📧 Email: arpan.bhattacharyya0508@gmail.com
-🔗 LinkedIn: linkedin.com/in/arpan-bhattacharyyakolkata
+📧 Email Id: bishnu.das1191@gmail.com
+🔗 Follow me on LinkedIn: linkedin.com/in/bishnu-das
 
 🔮 Future Enhancements
 ✅ JSON Data Support
